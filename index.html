@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+  
+      .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+      }
+  
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    </style>
+    <title>Headphones</title>
+  </head>
+  <body>
+   <header class="header mb-[200px] max-[1181px]:h-[1400px]  max-[608px]:h-[950px]">
+     <section data-aos="zoom-in-down" class="header_box "> 
+        <div class="pt-[34px]">
+            <img src="./images/headphone_logo.svg" alt="">
+        </div>
+        <div class="flex justify-center gap-[32px] pt-[44px] max-[748px]:hidden">
+            <div class="fa">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="stolb">
+            </div>
+            <div class="fa">
+                <i class="fa-solid fa-box"></i>
+            </div>
+            <div class="stolb"></div>
+            <div class="fa">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+        <div class="menu_icon mb-[10px] hidden mt-[30px] text-[20px] max-[747px]:block"><div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">search</a>
+            <a href="#">products</a>
+            <a href="#">About</a>
+          </div>
+        </div>
+        <span class="open mt-[55px]" style="font-size:30px;cursor:pointer" onclick="openNav()"><svg width="41" height="29" viewBox="0 0 41 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39.5007 10.334H10.334" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M39.5 2H2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M39.5 18.666H2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M39.5007 27H10.334" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        </svg> </span></div>
+  </div>
+     </section>
+    </header>
+    <main>
+    <section class="mt-[-1000px] mb-[300px] max-[1181px]:flex justify-center">
+     <section class="flex justify-center gap-[95px] max-[1181px]:block max-[1181px]:mt-[-500px] max-[608px]:mt-[-100px]">
+       <div data-aos="fade-up"
+       data-aos-anchor-placement="top-bottom" class="mt-[64px] relative max-[1181px]:mt-[40px]  max-[614px]:hidden">
+         <img class="pulse max-[608px]:w-[250px] max-[608px]:h-[250px] max-[608px]:flex m-auto max-[597px]:hidden" src="./images/red_headphone.png" alt="">
+     
+         <img class="song  max-[724px]:hidden absolute mt-[-350px] ml-[530px]" src="./images/text.svg" alt="">
+         <img class="song  max-[647px]:hidden absolute mt-[-550px] ml-[530px]" src="./images/tepa.svg" alt="">
+         <img class="song absolute mt-[-600px] ml-[420px]" src="./images/teparoq.svg" alt="">
+         <img class="bong max-[608px]:hidden absolute mt-[-550px]" src="./images/Yon_tepa.svg" alt="">
+         <img class="bong max-[608px]:hidden absolute mt-[-350px]" src="./images/yon_orta.svg" alt="">
+         <img class="bong max-[608px]:hidden absolute mt-[-200px]" src="./images/Yon_pas.svg" alt="">
+       </div>
+       <div class="vali" data-aos="fade-up"
+       data-aos-duration="3000">
+         <p class="hear_text pt-[107px]">
+          Hear it. Feel it
+         </p>
+         <p class="with_text max-[608px]:text-[50px]">
+          Move <br> with the <br> music
+         </p>
+         <div class="flex gap-[30px] max-[315px]:gap-[0px]">
+           <p class="money pt-[45px]">
+            $ 435
+           </p>
+           <div class="st"></div>
+           <p class="skidka pt-[52px]">
+            $ 465
+           </p>
+         </div>
+         <button class="buy_btn"> 
+            BUY NOW
+         </button>
+       </div>
+       <img class="pulse hidden max-[608px]:w-[250px] max-[608px]:h-[250px] max-[608px]:flex m-auto mt-[60px]  max-[614px]:block" src="./images/red_headphone.png" alt="">
+     </section>
+    </section>
+    <div>
+      <p class="our_text">Our Latest <br>
+        colour collection 2021</p>
+    </div>
+    <section class="swiper-box">
+      <div class="slider">
+          <div class="item">
+              <img src="./images/red_headphone.png" alt="" />
+          </div>
+          <div class="item">
+              <img src="./images/orta.svg" alt="" />
+          </div>
+          <div class="item">
+              <img src="./images/orange.svg" alt="" />
+          </div>
+          <div class="item">
+              <img src="./images/red_headphone.png" alt="" />
+          </div>
+          <div class="item">
+              <img src="./images/orange.svg" alt="" />
+          </div>
+          <div class="item">
+              <img src="./images/orta.svg" alt="" />
+          </div>
+          <button id="next">></button>
+          <button id="prev"><</button>
+      </div>
+  </section>
+    <section class="max-[1324px]:flex justify-center">x 
+      <section class="flex justify-center gap-[187px] max-[1324px]:block">
+        <div>
+           <p data-aos="zoom-in-up" class="good_text max-[497px]:text-[30px]">
+             Good headphones <br> and loud music is all <br> you need
+           </p>
+           <div data-aos="fade-right">
+             <img src="./images/battery.svg" alt="">
+           </div>
+        </div>
+        <div  data-aos="zoom-in-down" class="relative mt-[280px]">
+          <img class="max-[623px]:w-[200px] max-[623px]:h-[200px] max-[623px]:mt-[-200px]" src="./images/yellow_headphones.png" alt="">
+          <img class="sound absolute mt-[-90px] ml-[-130px] max-[623px]:w-[100px] max-[623px]:h-[100px] max-[623px]:ml-[20px] max-[623px]:hidden" src="./images/song_left.png" alt="">
+          <img class="sound absolute mt-[-130px] ml-[260px] max-[623px]:w-[100px] max-[623px]:h-[100px] max-[623px]:ml-[200px] max-[623px]:mt-[-100px]" src="./images/song_right.png" alt="">
+        </div>
+     </section>
+    </section>
+    <section class="mt-[200px]">
+      <div>
+        <p class="product_text">
+          Our Latest Product
+        </p>
+        <p class="lorem_text pt-[25px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis <br> nunc ipsum aliquam, ante. 
+        </p>
+      </div>
+      <section data-aos="fade-up"
+      data-aos-anchor-placement="top-center" class="max-[1195px]:flex justify-center">
+        <section class="flex justify-center gap-[63px] max-[1195px]:block">
+          <div class="max-[390px]:w-[200px] max-[390px]:h-[500px]">
+              <button class="card_btn max-[390px]:ml-[160px] max-[390px]:p-2"><img src="./images/card.svg" alt=""></button>
+              <span><img src="./images/pink_ph.png" alt=""></span>
+              <div class="flex gap-[104px]">
+                <span class="mt-[35px]"><img src="./images/stars.svg" alt=""></span>
+                <p class="number_text pt-[38px]">
+                  4.50
+                </p>
+              </div>
+              <div class="flex gap-[94px] max-[371px]:gap-[50px]">
+                <p class="read pt-[15px]">
+                  Read Headphone
+                </p>
+                <p class="money_text pt-[18px]">
+                  $ 256
+                </p>
+              </div>
+          </div>
+          <div class="max-[390px]:w-[200px] max-[390px]:h-[500px]" >
+            <button class="card_btn_g max-[390px]:ml-[160px] max-[390px]:p-2""><img src="./images/card.svg" alt=""></button>
+            <span><img src="./images/blue_ph.png" alt=""></span>
+            <div class="flex gap-[104px]">
+              <span class="mt-[35px]"><img src="./images/stars.svg" alt=""></span>
+              <p class="number_text pt-[38px]">
+                4.50
+              </p>
+            </div>
+            <div class="flex gap-[94px] max-[371px]:gap-[50px]">
+              <p class="read pt-[15px]">
+                Blue Headphone
+              </p>
+              <p class="money_text pt-[18px]">
+                $ 235
+              </p>
+            </div>
+        </div>
+        <div class="max-[390px]:w-[200px] max-[390px]:h-[500px]">
+          <button class="card_btn_b bg-[#D7EFEB] max-[390px]:ml-[160px] max-[390px]:p-2""><img src="./images/card.svg" alt=""></button>
+          <span><img src="./images/green_ph.png" alt=""></span>
+          <div class="flex gap-[104px]">
+            <span class="mt-[35px]"><img src="./images/stars.svg" alt=""></span>
+            <p class="number_text pt-[38px]">
+              4.50
+            </p>
+          </div>
+          <div class="flex gap-[94px] max-[371px]:gap-[50px]">
+            <p class="read pt-[15px]">
+              Green Headphone
+            </p>
+            <p class="money_text pt-[18px]">
+              $ 245
+            </p>
+          </div>
+      </div>
+        </section>
+      </section>
+    </section>
+     <section class="max-[1070px]:flex justify-center">
+      <section class="flex justify-center gap-[32px] mt-[100px] max-[1070px]:block">
+        <div>
+           <img src="./images/box.yellow.png" alt="">
+        </div>
+        <div>
+          <p class="What_text max-[683px]:text-[30px] max-[683px]:text-center">
+            Whatever you get <br> in the box
+          </p>
+  
+          <div class="flex gap-[15px] mt-[48px] max-[683px]:justify-center">
+            <button class="info"><img src="./images/go.svg" alt=""></button>
+            <p class="charger">
+              5A Charger
+            </p>
+          </div>
+          <p class="lorem pt-[20px]">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi vitae iure officia illo  id <br> nihil provident debitis, mollitia tempora quisquam consectetur sapiente, odio enim iste <br> commodi officiis dolorum obcaecati culpa!
+          </p>
+          <hr class="hr mt-[20px] max-[683px]:m-auto max-[350px]:w-[200px]">
+          <div class="flex gap-[15px] mt-[48px] max-[683px]:justify-center">
+            <button class="infot"><img src="./images/go.svg" alt=""></button>
+            <p class="charger">
+              Extra battery
+            </p>
+          </div>
+          <p class="battery pt-[20px]">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi vitae iure officia illo  id <br> nihil provident debitis, mollitia tempora quisquam consectetur sapiente, odio enim iste <br> commodi officiis dolorum obcaecati culpa!
+          </p>
+          <hr class="hr mt-[20px] max-[683px]:m-auto  max-[350px]:w-[200px]">
+          <div class="flex gap-[15px] mt-[48px] max-[683px]:justify-center">
+            <button class="bag"><img src="./images/go.svg" alt=""></button>
+            <p class="charger">
+              Sophisticated bag
+            </p>
+          </div>
+          <p class="beg pt-[20px]">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi vitae iure officia illo  id <br> nihil provident debitis, mollitia tempora quisquam consectetur sapiente, odio enim iste <br> commodi officiis dolorum obcaecati culpa!
+          </p>
+          <hr class="hr mt-[20px] max-[683px]:m-auto  max-[350px]:w-[200px]">
+          <div class="flex gap-[15px] mt-[48px] max-[683px]:justify-center">
+            <button class="use"><img src="./images/go.svg" alt=""></button>
+            <p class="charger">
+              User manual guide
+            </p>
+          </div>
+          <p class="tex pt-[20px]">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi vitae iure officia illo  id <br> nihil provident debitis, mollitia tempora quisquam consectetur sapiente, odio enim iste <br> commodi officiis dolorum obcaecati culpa!
+          </p>
+          <hr class="hr mt-[20px] max-[683px]:m-auto  max-[350px]:w-[200px]">
+        </div>
+        </div>
+    </div>
+      </section>
+     </section>
+     <section class="flex justify-center gap-[80px] mt-[120px] max-[1230px]:gap-[10px]">
+        <div>
+           <img class="subs_left max-[950px]:hidden" src="./images/subs.left.svg" alt="">
+           <img class="subs_pas max-[1027px]:hidden" src="./images/subs.left.pas.svg" alt="">
+           <img class="subs_pasroq max-[950px]:hidden" src="./images/subs.left.pasroq.svg" alt="">
+        </div>
+        <div class="subscribe_box max-[713px]:hidden">
+          <p class="subs_text">
+            Subscribe
+          </p>
+          <p class="subs_title">
+            Lorem ipsum dolor sit amet, consectetur 
+          </p>
+          <div class="flex justify-center">
+            <input  class="subs_input" type="text" placeholder="Enter Your email address">
+             <button class="subs_btn flex m-auto">Subscribe</button>
+          </div>
+        </div>
+        <div>
+          <img class="subs_tepa max-[950px]:hidden" src="./images/subs.right.tepa.svg" alt="">
+          <img class="subs_right max-[1027px]:hidden" src="./images/subs.right.svg" alt="">
+        </div>
+     </section>
+  </main>
+  <footer>
+    <section class="max-[815px]:flex justify-center bg-[#e86564]">
+      <section class="footer max-[1296px]:gap-[120px] max-[815px]:block">
+        <div class="mt-[62px] max-[815px]:flex m-auto">
+          <img src="./images/headphone_logo.svg" alt="">
+        </div>
+        <ul class="about flex justify-center gap-[33px] max-[327px]:block">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Product</a>
+          </li>
+        </ul>
+        <div class="mt-[66px] max-[815px]:mt-[16px] max-[356px]:hidden">
+           <img src="./images/social.media.svg" alt="">
+        </div>
+      </section>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+            <script>
+              function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+              }
+              
+              function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+              }
+              </script>
+  </body>
+</html>
